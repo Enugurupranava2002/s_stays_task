@@ -1,0 +1,309 @@
+.imageIcon {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  height: 630px;
+}
+.groupIcon {
+  width: 11.7px;
+  height: 8px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.frameChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--new-ui-2021-black-grays-white);
+  width: 100%;
+  height: 100%;
+}
+.frameItem {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--new-ui-2021-black-grays-white);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.frameInner {
+  position: absolute;
+  top: 0px;
+  left: 291px;
+  border-radius: var(--br-9xs);
+  background: linear-gradient(97.31deg, #609cff, #6e61ff);
+  width: 138px;
+  height: 48px;
+}
+.logIn {
+  position: absolute;
+  top: 13px;
+  left: 305px;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 110px;
+  white-space: nowrap;
+}
+.exploreIdeas {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.groupIcon1 {
+  width: 8px;
+  height: 4.6px;
+  position: relative;
+}
+.arrowDownSignToNavigate1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px var(--padding-11xs);
+}
+.exploreIdeasParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.frameParent {
+  position: absolute;
+  top: 14px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  color: var(--new-ui-2021-black-grays-dark-text);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 21px;
+  left: 911px;
+  width: 429px;
+  height: 48px;
+}
+.frameChild1 {
+  position: absolute;
+  top: 24px;
+  left: 100px;
+  width: 219.2px;
+  height: 42.1px;
+  display: none;
+}
+.frameChild2 {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 366px;
+  max-height: 100%;
+  width: 392px;
+}
+.lineDiv {
+  position: absolute;
+  top: 90px;
+  left: 0px;
+  border-top: 1px solid var(--new-ui-2021-black-grays-light-gray);
+  box-sizing: border-box;
+  width: 1441px;
+  height: 1px;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 90px;
+  position: sticky;
+  display: none;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--new-ui-2021-black-grays-white);
+  font-family: var(--font-inter);
+}
+.listingPageChild {
+  width: 100%;
+  height: 1399px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+  z-index: 4;
+}
+.location {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.image9Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.getDirection {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  font-family: var(--font-inter);
+  color: var(--new-ui-2021-black-grays-white);
+  text-align: left;
+}
+.secondaryButton {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-1100);
+  padding: var(--padding-xs) var(--padding-8xl) var(--padding-xs)
+    var(--padding-11xl);
+  background-color: transparent;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.8;
+}
+.secondaryButton:hover {
+  background-color: var(--color-gainsboro-600);
+  border: 1px solid var(--color-gainsboro-500);
+  box-sizing: border-box;
+}
+.locationImageContainer {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  width: 100%;
+}
+.locationParent {
+  width: 797px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-10xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.roomCards {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.roomsBedsParent {
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.villaDetails {
+  width: 1240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-lora);
+}
+.main {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-bottom: 75px;
+}
+.listingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 100px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+  .imageWrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%; // Ensures images take up the full height
+  }
+
+  .image {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+
+  .dots {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &.activeDot,
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+    }
+  }
+}

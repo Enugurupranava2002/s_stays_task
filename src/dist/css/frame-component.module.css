@@ -1,0 +1,85 @@
+.frameParent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xl);
+  width: 75%;
+}
+
+.carouselContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carouselWrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  width: auto;
+}
+
+.carouselInner {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carouselItem {
+  max-width: calc(100% / var(--items-to-show, 3));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--color-gray-800);
+  color: var(--color-lightgray-100);
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.navArrow:hover {
+  background-color: var(--color-lightgray-100);
+  color: var(--color-gray-800);
+}
+
+.navArrow:first-of-type {
+  left: 10px;
+}
+
+.navArrow:last-of-type {
+  right: 10px;
+}
+
+.dots {
+  display: flex;
+  gap: var(--gap-sm);
+  margin-top: var(--gap-md);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--color-gray-800);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.activeDot {
+  background-color: var(--color-lightgray-100);
+}/*# sourceMappingURL=frame-component.module.css.map */

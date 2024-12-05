@@ -1,0 +1,290 @@
+.contentChild {
+  align-self: stretch;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+  max-width: 100%;
+}
+
+.xIcon {
+  height: 42.7px;
+  width: 30.3px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.seriesIcon {
+  align-self: stretch;
+  height: 25.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.navSeries {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-4xs-1);
+}
+
+.navOptions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-2);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+}
+
+.frameChild {
+  height: 48px;
+  width: 319px;
+  position: relative;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: var(--br-16xl);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: none;
+}
+
+.groupIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  -o-object-fit: contain;
+     object-fit: contain;
+  z-index: 1;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+}
+
+.searchForLocation {
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: var(--br-16xl);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-5xl);
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+
+.navigationParent {
+  height: 48px;
+  width: 572px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-50xl-5);
+  max-width: 100%;
+}
+
+.logoIcon {
+  height: 23.7px;
+  width: 26px;
+  position: relative;
+  z-index: 2;
+}
+
+.saffronstays {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  z-index: 2;
+}
+
+.brandName {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-11xs-7);
+}
+
+.logoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px 0px;
+}
+
+.phoneCall1Icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.phoneIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px 0px;
+}
+
+.phoneLabel {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.phoneIconParent {
+  align-self: stretch;
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-3xs) var(--padding-xl);
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+
+.contact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-3xs) 0px 0px;
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+
+.login {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--font-catamaran);
+  color: var(--color-black);
+  text-align: right;
+}
+
+.auth {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-xs) var(--padding-14xl) var(--padding-xs) var(--padding-15xl);
+  background-color: var(--new-ui-2021-black-grays-white);
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+
+.auth:hover {
+  background-color: var(--color-gainsboro-100);
+}
+
+.logoContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--new-ui-2021-black-grays-white);
+  font-family: var(--font-catamaran);
+}
+
+.content {
+  align-self: stretch;
+  height: 90px;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-14xl) var(--padding-14xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightgray-200);
+  font-family: var(--font-inter);
+}
+
+.phoneIcons {
+  display: none !important;
+}
+
+@media (max-width: 1058px) {
+  .navigationParent,
+  .header {
+    display: none;
+  }
+  .phoneIcons {
+    display: flex !important;
+    justify-content: space-between;
+    width: 100%;
+  }
+}/*# sourceMappingURL=content.module.css.map */
