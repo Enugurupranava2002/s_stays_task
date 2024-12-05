@@ -6,6 +6,7 @@ export type ContentType = {
   className?: string;
 };
 
+//temp
 const Content: NextPage<ContentType> = ({ className = "" }) => {
   return (
     <div className={[styles.content, className].join(" ")}>
