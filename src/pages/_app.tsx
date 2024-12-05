@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>Saffronstays Frontend Task (Copy)</title>
+        <title>Saffronstays Frontend Task</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

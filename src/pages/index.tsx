@@ -11,18 +11,16 @@ import GroupComponent from "@/components/group-component";
 import { SetStateAction, useEffect, useState } from "react";
 
 const ListingPage: NextPage = () => {
-  const images = ["/image@2x.png", "/image@2x.png", "/image@2x.png"]; // Replace with your image paths
+  const images = ["/image@2x.png", "/image@2x.png", "/image@2x.png"];
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Automatically switch images
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
+    }, 3000);
     return () => clearInterval(interval);
   }, [images.length]);
 
-  // Handle dot click
   const handleDotClick = (index: SetStateAction<number>) => {
     setCurrentIndex(index);
   };

@@ -6,12 +6,10 @@ body {
   line-height: normal;
 }
 :root {
-  /* fonts */
   --font-inter: Inter;
   --font-lora: Lora;
   --font-catamaran: Catamaran;
 
-  /* font sizes */
   --font-size-xs: 12px;
   --font-size-sm: 14px;
   --font-size-lg: 18px;
@@ -23,7 +21,6 @@ body {
   --font-size-3xl: 22px;
   --font-size-41xl: 60px;
 
-  /* Colors */
   --color-black: #000;
   --color-darkslategray-100: #404040;
   --new-ui-2021-black-grays-dark-text: #333;
@@ -62,7 +59,6 @@ body {
   --color-silver: #bbb;
   --color-dimgray: #666;
 
-  /* Gaps */
   --gap-43xl: 62px;
   --gap-xl: 20px;
   --gap-5xl: 24px;
@@ -97,7 +93,6 @@ body {
   --gap-50xl-5: 69.5px;
   --gap-3xs-2: 9.2px;
 
-  /* Paddings */
   --padding-lg: 18px;
   --padding-81xl: 100px;
   --padding-10xs: 3px;
@@ -141,7 +136,6 @@ body {
   --padding-5xl: 24px;
   --padding-4xs-1: 8.1px;
 
-  /* Border radiuses */
   --br-3xs: 10px;
   --br-11xl: 30px;
   --br-9xs: 4px;
